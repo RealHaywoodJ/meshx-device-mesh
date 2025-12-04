@@ -1,0 +1,49 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Build outputs
+/build/
+/dist/
+/out/
+
+# Test coverage
+*.lcov
+coverage/
+
+# Node modules (for web components)
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# MeshX specific
+meshx-data/
+*.meshx-wallet
+*.attestation
+/testnet-data/
